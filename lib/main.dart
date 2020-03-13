@@ -9,7 +9,7 @@ class myHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primaryColor: Colors.teal
+        primaryColor: Color(0xFF2F2C7C)
       ),
       home: MainPage(),
       routes: myRoutes,
@@ -19,5 +19,5 @@ class myHomePage extends StatelessWidget {
 }
 
 var  myRoutes = <String, WidgetBuilder>{
-
+ "/mainpage" : (BuildContext context) => MainPage()
 };
